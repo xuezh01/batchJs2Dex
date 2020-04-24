@@ -8,13 +8,13 @@
 	3.安装第2步的安装包
 	4.运行第3步安装的app，执行加密操作
 	4.打包第4步加密成功的脚本
-*/
+
 总的来说 建议打两次包
 
 因为需要正确的rhino版本
 整个代码就是用ois读预编译好的脚本
 这段脚本是个二进制数组
-
+*/
 
 function compile(opt) {
 	var cx = org.mozilla.javascript.Context.getCurrentContext();
